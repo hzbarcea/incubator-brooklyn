@@ -21,12 +21,13 @@ package org.apache.brooklyn.entity.nosql.mongodb;
 import java.util.Collection;
 import java.util.List;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.entity.group.Cluster;
 import brooklyn.entity.group.DynamicCluster;
 import brooklyn.entity.proxying.ImplementedBy;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.util.flags.SetFromFlag;
 

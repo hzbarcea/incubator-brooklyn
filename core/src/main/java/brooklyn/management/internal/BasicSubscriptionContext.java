@@ -26,6 +26,9 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
 
+import org.apache.brooklyn.event.Sensor;
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.management.SubscriptionContext;
 import org.apache.brooklyn.management.SubscriptionHandle;
 import org.apache.brooklyn.management.SubscriptionManager;
@@ -34,9 +37,6 @@ import org.slf4j.LoggerFactory;
 
 import brooklyn.entity.Entity;
 import brooklyn.entity.Group;
-import brooklyn.event.Sensor;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 
 import com.google.common.base.Objects;
 import com.google.common.base.Preconditions;

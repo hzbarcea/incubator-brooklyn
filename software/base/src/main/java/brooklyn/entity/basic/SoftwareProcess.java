@@ -21,12 +21,13 @@ package brooklyn.entity.basic;
 import java.util.Collection;
 import java.util.Map;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Entity;
 import brooklyn.entity.basic.Lifecycle.Transition;
 import brooklyn.entity.annotation.Effector;
 import brooklyn.entity.trait.Startable;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.AttributeSensorAndConfigKey;
 import brooklyn.event.basic.MapConfigKey;
 import brooklyn.event.basic.Sensors;

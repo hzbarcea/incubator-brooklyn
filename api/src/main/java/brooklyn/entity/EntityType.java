@@ -21,8 +21,9 @@ package brooklyn.entity;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
+import org.apache.brooklyn.event.Sensor;
+
 import brooklyn.basic.BrooklynType;
-import brooklyn.event.Sensor;
 import brooklyn.util.guava.Maybe;
 
 /**

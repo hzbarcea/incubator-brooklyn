@@ -33,6 +33,8 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.management.EntityManager;
 import org.apache.brooklyn.management.Task;
 import org.slf4j.Logger;
@@ -46,8 +48,6 @@ import brooklyn.entity.basic.Entities;
 import brooklyn.entity.basic.EntityInternal;
 import brooklyn.entity.basic.EntityLocal;
 import brooklyn.entity.proxying.EntitySpec;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.location.basic.SimulatedLocation;
 import brooklyn.test.Asserts;
 import brooklyn.util.collections.MutableMap;

@@ -23,6 +23,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.testng.collections.Lists;
 import org.testng.internal.annotations.Sets;
 
@@ -41,7 +42,6 @@ import brooklyn.entity.basic.MethodEffector;
 import brooklyn.entity.proxying.EntitySpec;
 import brooklyn.entity.proxying.ImplementedBy;
 import brooklyn.entity.trait.Startable;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.BasicConfigKey;
 import brooklyn.event.basic.BasicNotificationSensor;
 import brooklyn.event.basic.ListConfigKey;

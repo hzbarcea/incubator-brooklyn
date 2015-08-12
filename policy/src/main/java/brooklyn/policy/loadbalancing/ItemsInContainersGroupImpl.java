@@ -18,6 +18,9 @@
  */
 package brooklyn.policy.loadbalancing;
 
+import org.apache.brooklyn.event.Sensor;
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,9 +28,6 @@ import brooklyn.entity.Entity;
 import brooklyn.entity.Group;
 import brooklyn.entity.basic.AbstractGroup;
 import brooklyn.entity.basic.DynamicGroupImpl;
-import brooklyn.event.Sensor;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 
 import com.google.common.base.Predicate;
 

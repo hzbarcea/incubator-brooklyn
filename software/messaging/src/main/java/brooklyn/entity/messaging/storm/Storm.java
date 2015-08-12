@@ -19,6 +19,8 @@
 package brooklyn.entity.messaging.storm;
 
 import org.apache.brooklyn.catalog.Catalog;
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.config.render.RendererHints;
 import brooklyn.entity.Entity;
@@ -27,7 +29,6 @@ import brooklyn.entity.basic.SoftwareProcess;
 import brooklyn.entity.java.UsesJmx;
 import brooklyn.entity.proxying.ImplementedBy;
 import brooklyn.entity.zookeeper.ZooKeeperEnsemble;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.BasicAttributeSensorAndConfigKey;
 import brooklyn.event.basic.PortAttributeSensorAndConfigKey;
 import brooklyn.event.basic.Sensors;

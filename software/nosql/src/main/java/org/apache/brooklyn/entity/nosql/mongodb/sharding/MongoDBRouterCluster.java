@@ -20,9 +20,10 @@ package org.apache.brooklyn.entity.nosql.mongodb.sharding;
 
 import java.util.Collection;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.entity.group.DynamicCluster;
 import brooklyn.entity.proxying.ImplementedBy;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 
 @ImplementedBy(MongoDBRouterClusterImpl.class)

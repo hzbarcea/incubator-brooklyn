@@ -21,6 +21,8 @@ package brooklyn.entity.proxy.nginx;
 import java.util.Map;
 
 import org.apache.brooklyn.catalog.Catalog;
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.annotation.Effector;
 import brooklyn.entity.annotation.EffectorParam;
@@ -31,7 +33,6 @@ import brooklyn.entity.proxy.AbstractController;
 import brooklyn.entity.proxy.ProxySslConfig;
 import brooklyn.entity.proxying.ImplementedBy;
 import brooklyn.entity.trait.HasShortName;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.BasicAttributeSensorAndConfigKey;
 import brooklyn.event.basic.Sensors;
 import brooklyn.util.flags.SetFromFlag;

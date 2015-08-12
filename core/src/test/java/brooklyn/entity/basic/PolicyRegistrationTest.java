@@ -25,6 +25,8 @@ import static org.testng.Assert.fail;
 import java.util.Collection;
 import java.util.List;
 
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.policy.EnricherSpec;
 import org.apache.brooklyn.policy.Policy;
 import org.apache.brooklyn.policy.PolicySpec;
@@ -34,8 +36,6 @@ import org.testng.annotations.Test;
 
 import brooklyn.entity.BrooklynAppUnitTestSupport;
 import brooklyn.entity.proxying.EntitySpec;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.policy.basic.AbstractPolicy;
 import brooklyn.test.entity.TestEntity;
 import brooklyn.test.entity.TestEntityNoEnrichersImpl;

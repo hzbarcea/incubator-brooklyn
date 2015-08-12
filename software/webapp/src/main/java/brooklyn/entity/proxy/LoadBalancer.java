@@ -21,6 +21,8 @@ package brooklyn.entity.proxy;
 import java.net.URI;
 import java.util.Map;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Entity;
 import brooklyn.entity.Group;
@@ -29,7 +31,6 @@ import brooklyn.entity.basic.Attributes;
 import brooklyn.entity.basic.MethodEffector;
 import brooklyn.entity.trait.Startable;
 import brooklyn.entity.webapp.WebAppService;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.BasicAttributeSensorAndConfigKey;
 import brooklyn.event.basic.BasicConfigKey;
 import brooklyn.event.basic.PortAttributeSensorAndConfigKey;

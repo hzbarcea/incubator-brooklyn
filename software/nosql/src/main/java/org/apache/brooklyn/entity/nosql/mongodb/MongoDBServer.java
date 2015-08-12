@@ -19,13 +19,13 @@
 package org.apache.brooklyn.entity.nosql.mongodb;
 
 import org.bson.BasicBSONObject;
-
 import org.apache.brooklyn.catalog.Catalog;
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.AttributeSensor.SensorPersistenceMode;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.entity.proxying.ImplementedBy;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.AttributeSensor.SensorPersistenceMode;
 import brooklyn.event.basic.BasicConfigKey;
 import brooklyn.event.basic.PortAttributeSensorAndConfigKey;
 import brooklyn.event.basic.Sensors;

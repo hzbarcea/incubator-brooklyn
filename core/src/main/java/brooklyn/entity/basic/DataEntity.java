@@ -20,11 +20,12 @@ package brooklyn.entity.basic;
 
 import java.util.Map;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Entity;
 import brooklyn.entity.proxying.ImplementedBy;
 import brooklyn.entity.trait.Startable;
-import brooklyn.event.AttributeSensor;
 import brooklyn.util.flags.SetFromFlag;
 
 import com.google.common.base.Supplier;

@@ -57,12 +57,12 @@ import brooklyn.entity.basic.EntityLocal;
 import brooklyn.entity.basic.SoftwareProcess;
 import brooklyn.entity.drivers.DriverDependentEntity;
 import brooklyn.entity.trait.Startable;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.location.LocationSpec;
 import brooklyn.location.basic.LocalhostMachineProvisioningLocation;
 import brooklyn.test.Asserts;
 
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.management.ManagementContext;
 import org.apache.brooklyn.management.SubscriptionContext;
 import org.apache.brooklyn.management.SubscriptionHandle;

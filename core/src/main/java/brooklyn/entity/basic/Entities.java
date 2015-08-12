@@ -39,6 +39,8 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.Sensor;
 import org.apache.brooklyn.management.ExecutionContext;
 import org.apache.brooklyn.management.LocationManager;
 import org.apache.brooklyn.management.ManagementContext;
@@ -65,8 +67,6 @@ import brooklyn.entity.proxying.EntityProxyImpl;
 import brooklyn.entity.proxying.EntitySpec;
 import brooklyn.entity.trait.Startable;
 import brooklyn.entity.trait.StartableMethods;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.Sensor;
 import brooklyn.event.basic.DependentConfiguration;
 import brooklyn.location.Location;
 import brooklyn.location.LocationSpec;

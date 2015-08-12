@@ -26,6 +26,7 @@ import java.util.Map;
 import brooklyn.BrooklynVersion;
 
 import org.apache.brooklyn.catalog.Catalog;
+import org.apache.brooklyn.event.AttributeSensor;
 import org.apache.brooklyn.management.ha.HighAvailabilityMode;
 import org.apache.brooklyn.management.ha.ManagementNodeState;
 
@@ -37,7 +38,6 @@ import brooklyn.entity.basic.SoftwareProcess;
 import brooklyn.entity.effector.Effectors;
 import brooklyn.entity.java.UsesJava;
 import brooklyn.entity.proxying.ImplementedBy;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.BasicAttributeSensor;
 import brooklyn.event.basic.BasicAttributeSensorAndConfigKey;
 import brooklyn.event.basic.Sensors;

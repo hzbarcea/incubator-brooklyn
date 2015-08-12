@@ -33,10 +33,10 @@ import org.testng.annotations.Test;
 import brooklyn.config.render.RendererHints;
 import brooklyn.entity.basic.Entities;
 import brooklyn.entity.proxying.EntitySpec;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.Sensor;
 import brooklyn.event.basic.Sensors;
 
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.Sensor;
 import org.apache.brooklyn.management.ManagementContext;
 import org.apache.brooklyn.rest.transform.SensorTransformer;
 

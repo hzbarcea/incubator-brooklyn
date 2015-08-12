@@ -21,10 +21,11 @@ package brooklyn.enricher;
 import java.util.LinkedList;
 
 import org.apache.brooklyn.catalog.Catalog;
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.SensorEvent;
+
 import brooklyn.enricher.basic.AbstractTypeTransformingEnricher;
 import brooklyn.entity.Entity;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.SensorEvent;
 import brooklyn.util.flags.SetFromFlag;
 import brooklyn.util.javalang.JavaClassNames;
 

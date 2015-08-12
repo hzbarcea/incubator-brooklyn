@@ -18,11 +18,12 @@
  */
 package brooklyn.enricher.basic;
 
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.Sensor;
+import org.apache.brooklyn.event.SensorEventListener;
+
 import brooklyn.entity.Entity;
 import brooklyn.entity.basic.EntityLocal;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.Sensor;
-import brooklyn.event.SensorEventListener;
 import brooklyn.event.basic.BasicSensorEvent;
 import brooklyn.util.flags.SetFromFlag;
 

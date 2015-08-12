@@ -18,6 +18,8 @@
  */
 package brooklyn.entity.messaging.kafka;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.entity.basic.SoftwareProcess;
@@ -25,7 +27,6 @@ import brooklyn.entity.java.UsesJmx;
 import brooklyn.entity.messaging.MessageBroker;
 import brooklyn.entity.proxying.ImplementedBy;
 import brooklyn.entity.zookeeper.ZooKeeperNode;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.BasicConfigKey;
 import brooklyn.event.basic.PortAttributeSensorAndConfigKey;
 import brooklyn.event.basic.Sensors;

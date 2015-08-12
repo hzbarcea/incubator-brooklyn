@@ -20,6 +20,7 @@ package brooklyn.basic;
 
 import java.util.Map;
 
+import org.apache.brooklyn.event.Sensor;
 import org.apache.brooklyn.policy.Enricher;
 import org.apache.brooklyn.policy.Policy;
 
@@ -27,7 +28,6 @@ import brooklyn.config.ConfigKey;
 import brooklyn.enricher.basic.EnricherDynamicType;
 import brooklyn.entity.Entity;
 import brooklyn.entity.basic.EntityDynamicType;
-import brooklyn.event.Sensor;
 import brooklyn.location.Location;
 import brooklyn.policy.basic.PolicyDynamicType;
 import brooklyn.util.exceptions.Exceptions;

@@ -18,7 +18,8 @@
  */
 package brooklyn.entity.messaging.amqp;
 
-import brooklyn.event.Sensor;
+import org.apache.brooklyn.event.Sensor;
+
 import brooklyn.event.basic.BasicAttributeSensorAndConfigKey;
 import brooklyn.util.flags.SetFromFlag;
 

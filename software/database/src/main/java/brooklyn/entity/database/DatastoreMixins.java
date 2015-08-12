@@ -22,12 +22,13 @@ import java.io.InputStream;
 
 import javax.annotation.Nullable;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Effector;
 import brooklyn.entity.Entity;
 import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.entity.effector.Effectors;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.util.ResourceUtils;
 import brooklyn.util.flags.SetFromFlag;

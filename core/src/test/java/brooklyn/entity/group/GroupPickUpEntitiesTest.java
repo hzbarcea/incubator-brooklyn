@@ -18,6 +18,8 @@
  */
 package brooklyn.entity.group;
 
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.policy.PolicySpec;
 import org.apache.brooklyn.test.EntityTestUtils;
 import org.testng.Assert;
@@ -33,8 +35,6 @@ import brooklyn.entity.basic.EntityInternal;
 import brooklyn.entity.basic.EntityLocal;
 import brooklyn.entity.proxying.EntitySpec;
 import brooklyn.entity.trait.Startable;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.policy.basic.AbstractPolicy;
 import brooklyn.test.Asserts;
 import brooklyn.test.entity.TestEntity;

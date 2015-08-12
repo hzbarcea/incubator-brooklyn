@@ -25,6 +25,7 @@ import java.util.Set;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.apache.brooklyn.management.ExecutionContext;
 import org.apache.brooklyn.management.ManagementContext;
 import org.apache.brooklyn.mementos.EntityMemento;
@@ -42,7 +43,6 @@ import brooklyn.entity.Group;
 import brooklyn.entity.basic.EntityInternal.FeedSupport;
 import brooklyn.entity.proxying.EntityProxyImpl;
 import brooklyn.entity.rebind.RebindSupport;
-import brooklyn.event.AttributeSensor;
 import brooklyn.location.Location;
 import brooklyn.management.internal.EntityManagementSupport;
 import brooklyn.util.config.ConfigBag;

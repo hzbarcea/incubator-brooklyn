@@ -18,6 +18,7 @@
  */
 package brooklyn.entity.basic;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.apache.brooklyn.policy.Enricher;
 import org.apache.brooklyn.test.EntityTestUtils;
 import org.slf4j.Logger;
@@ -31,7 +32,6 @@ import brooklyn.entity.basic.ServiceStateLogic.ServiceNotUpLogic;
 import brooklyn.entity.basic.ServiceStateLogic.ServiceProblemsLogic;
 import brooklyn.entity.group.DynamicCluster;
 import brooklyn.entity.proxying.EntitySpec;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.location.Location;
 import brooklyn.test.entity.TestEntity;

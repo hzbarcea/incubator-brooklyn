@@ -20,6 +20,7 @@ package brooklyn.event.feed.windows;
 
 import java.util.Map;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.apache.brooklyn.test.EntityTestUtils;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -27,7 +28,6 @@ import org.testng.annotations.Test;
 import brooklyn.entity.BrooklynAppLiveTestSupport;
 import brooklyn.entity.basic.EntityLocal;
 import brooklyn.entity.proxying.EntitySpec;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.location.Location;
 import brooklyn.location.MachineLocation;

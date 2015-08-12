@@ -25,6 +25,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.concurrent.Callable;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -39,7 +40,6 @@ import brooklyn.entity.basic.EntityInternal;
 import brooklyn.entity.basic.EntityLocal;
 import brooklyn.entity.basic.EntityInternal.FeedSupport;
 import brooklyn.entity.proxying.EntitySpec;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.event.feed.FeedConfig;
 import brooklyn.event.feed.PollConfig;

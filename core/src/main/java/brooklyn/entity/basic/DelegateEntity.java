@@ -20,11 +20,12 @@ package brooklyn.entity.basic;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.render.RendererHints;
 import brooklyn.entity.Entity;
 import brooklyn.entity.Group;
 import brooklyn.entity.proxying.ImplementedBy;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.AttributeSensorAndConfigKey;
 import brooklyn.event.basic.Sensors;
 

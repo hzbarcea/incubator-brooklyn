@@ -34,6 +34,9 @@ import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Nullable;
 
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.management.ExecutionContext;
 import org.apache.brooklyn.management.SubscriptionHandle;
 import org.apache.brooklyn.management.Task;
@@ -50,9 +53,6 @@ import brooklyn.entity.basic.Entities;
 import brooklyn.entity.basic.EntityInternal;
 import brooklyn.entity.basic.EntityLocal;
 import brooklyn.entity.basic.Lifecycle;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.util.GroovyJavaMethods;
 import brooklyn.util.collections.CollectionFunctionals;
 import brooklyn.util.collections.MutableList;

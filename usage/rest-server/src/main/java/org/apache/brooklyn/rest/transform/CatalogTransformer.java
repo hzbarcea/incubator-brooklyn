@@ -28,6 +28,7 @@ import brooklyn.basic.BrooklynTypes;
 
 import org.apache.brooklyn.catalog.CatalogItem;
 import org.apache.brooklyn.catalog.CatalogItem.CatalogItemType;
+import org.apache.brooklyn.event.Sensor;
 
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Effector;
@@ -35,7 +36,6 @@ import brooklyn.entity.Entity;
 import brooklyn.entity.EntityType;
 import brooklyn.entity.basic.EntityDynamicType;
 import brooklyn.entity.proxying.EntitySpec;
-import brooklyn.event.Sensor;
 import brooklyn.location.Location;
 import brooklyn.location.LocationSpec;
 

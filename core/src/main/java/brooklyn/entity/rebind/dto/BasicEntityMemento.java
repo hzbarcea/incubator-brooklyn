@@ -23,6 +23,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.Sensor;
 import org.apache.brooklyn.mementos.EntityMemento;
 import org.apache.brooklyn.mementos.TreeNode;
 import org.codehaus.jackson.annotate.JsonAutoDetect;
@@ -39,8 +41,6 @@ import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.entity.basic.Entities;
 import brooklyn.entity.basic.Sanitizer;
 import brooklyn.entity.rebind.RebindSupport;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.Sensor;
 import brooklyn.event.basic.Sensors;
 
 import com.google.common.base.Objects.ToStringHelper;

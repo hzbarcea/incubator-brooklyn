@@ -24,6 +24,7 @@ import static org.testng.Assert.assertTrue;
 
 import java.util.List;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.apache.brooklyn.management.Task;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -46,7 +47,6 @@ import brooklyn.entity.basic.SoftwareProcess;
 import brooklyn.entity.basic.SoftwareProcess.StopSoftwareParameters.StopMode;
 import brooklyn.entity.proxying.EntitySpec;
 import brooklyn.entity.trait.Startable;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.DependentConfiguration;
 import brooklyn.event.basic.Sensors;
 import brooklyn.location.jclouds.BailOutJcloudsLocation;

@@ -20,12 +20,13 @@ package brooklyn.entity.basic;
 
 import java.util.Collection;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Entity;
 import brooklyn.entity.Group;
 import brooklyn.entity.basic.ServiceStateLogic.ComputeServiceIndicatorsFromChildrenAndMembers;
 import brooklyn.entity.trait.Changeable;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.util.collections.QuorumCheck;
 import brooklyn.util.collections.QuorumCheck.QuorumChecks;

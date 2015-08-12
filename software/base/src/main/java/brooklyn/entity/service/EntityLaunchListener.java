@@ -23,6 +23,8 @@ import static com.google.common.base.Preconditions.checkNotNull;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicReference;
 
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.management.ExecutionManager;
 import org.apache.brooklyn.management.Task;
 
@@ -30,8 +32,6 @@ import brooklyn.entity.Entity;
 import brooklyn.entity.basic.BrooklynTaskTags;
 import brooklyn.entity.basic.BrooklynTaskTags.EffectorCallTag;
 import brooklyn.entity.basic.Lifecycle;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.util.task.Tasks;
 
 public class EntityLaunchListener implements Runnable, SensorEventListener<Lifecycle> {

@@ -21,6 +21,7 @@ package org.apache.brooklyn.entity.nosql.mongodb.sharding;
 import org.apache.brooklyn.catalog.Catalog;
 import org.apache.brooklyn.entity.nosql.mongodb.MongoDBReplicaSet;
 import org.apache.brooklyn.entity.nosql.mongodb.MongoDBServer;
+import org.apache.brooklyn.event.AttributeSensor;
 
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Entity;
@@ -29,7 +30,6 @@ import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.entity.proxying.EntitySpec;
 import brooklyn.entity.proxying.ImplementedBy;
 import brooklyn.entity.trait.Startable;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.util.flags.SetFromFlag;
 import brooklyn.util.time.Duration;

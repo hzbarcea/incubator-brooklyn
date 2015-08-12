@@ -20,9 +20,10 @@ package brooklyn.policy.loadbalancing;
 
 import java.util.Map;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.entity.Entity;
 import brooklyn.entity.proxying.ImplementedBy;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 
 import com.google.common.reflect.TypeToken;

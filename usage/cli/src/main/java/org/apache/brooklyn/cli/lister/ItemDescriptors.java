@@ -31,13 +31,16 @@ import brooklyn.basic.BrooklynDynamicType;
 import brooklyn.basic.BrooklynObject;
 import brooklyn.basic.BrooklynType;
 import brooklyn.basic.BrooklynTypes;
+
 import org.apache.brooklyn.catalog.Catalog;
+import org.apache.brooklyn.event.Sensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Effector;
 import brooklyn.entity.EntityType;
 import brooklyn.entity.basic.BrooklynConfigKeys;
-import brooklyn.event.Sensor;
 import brooklyn.location.LocationResolver;
+
 import org.apache.brooklyn.rest.domain.EffectorSummary;
 import org.apache.brooklyn.rest.domain.EntityConfigSummary;
 import org.apache.brooklyn.rest.domain.SensorSummary;
@@ -45,6 +48,7 @@ import org.apache.brooklyn.rest.domain.SummaryComparators;
 import org.apache.brooklyn.rest.transform.EffectorTransformer;
 import org.apache.brooklyn.rest.transform.EntityTransformer;
 import org.apache.brooklyn.rest.transform.SensorTransformer;
+
 import brooklyn.util.exceptions.RuntimeInterruptedException;
 
 import com.google.common.base.Strings;

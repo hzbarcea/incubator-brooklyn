@@ -20,11 +20,11 @@ package org.apache.brooklyn.entity.nosql.mongodb.sharding;
 
 import org.apache.brooklyn.catalog.Catalog;
 import org.apache.brooklyn.entity.nosql.mongodb.AbstractMongoDBServer;
+import org.apache.brooklyn.event.AttributeSensor;
 
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.entity.proxying.ImplementedBy;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.util.time.Duration;
 

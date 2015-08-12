@@ -20,6 +20,10 @@ package brooklyn.entity.basic;
 
 import java.util.Map;
 
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.Sensor;
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.management.SubscriptionContext;
 import org.apache.brooklyn.management.SubscriptionHandle;
 import org.apache.brooklyn.management.SubscriptionManager;
@@ -30,10 +34,6 @@ import brooklyn.config.ConfigKey.HasConfigKey;
 import brooklyn.entity.Entity;
 import brooklyn.entity.Group;
 import brooklyn.entity.trait.Configurable;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.Sensor;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.util.guava.Maybe;
 
 import com.google.common.annotations.Beta;

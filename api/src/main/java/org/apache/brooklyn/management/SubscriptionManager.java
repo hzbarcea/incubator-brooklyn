@@ -21,11 +21,12 @@ package org.apache.brooklyn.management;
 import java.util.Map;
 import java.util.Set;
 
+import org.apache.brooklyn.event.Sensor;
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
+
 import brooklyn.entity.Entity;
 import brooklyn.entity.Group;
-import brooklyn.event.Sensor;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 
 /**
  * The management interface for subscriptions.

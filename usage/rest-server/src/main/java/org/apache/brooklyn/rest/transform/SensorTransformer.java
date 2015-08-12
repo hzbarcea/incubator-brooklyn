@@ -25,9 +25,11 @@ import org.slf4j.LoggerFactory;
 
 import brooklyn.config.render.RendererHints;
 import brooklyn.entity.Entity;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.Sensor;
+
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.Sensor;
 import org.apache.brooklyn.rest.domain.SensorSummary;
+
 import brooklyn.util.collections.MutableMap;
 import brooklyn.util.exceptions.Exceptions;
 import brooklyn.util.net.URLParamEncoder;

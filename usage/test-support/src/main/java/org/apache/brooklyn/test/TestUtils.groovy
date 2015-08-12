@@ -30,7 +30,7 @@ import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
 import brooklyn.entity.Entity
-import brooklyn.event.AttributeSensor
+import org.apache.brooklyn.event.AttributeSensor
 import brooklyn.test.Asserts;
 import brooklyn.util.text.StringFunctions;
 import brooklyn.util.time.Duration

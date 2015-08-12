@@ -18,11 +18,12 @@
  */
 package brooklyn.enricher.basic;
 
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.Sensor;
+import org.apache.brooklyn.event.SensorEvent;
+
 import groovy.lang.Closure;
 import brooklyn.entity.Entity;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.Sensor;
-import brooklyn.event.SensorEvent;
 import brooklyn.util.GroovyJavaMethods;
 import brooklyn.util.javalang.JavaClassNames;
 import brooklyn.util.time.Duration;

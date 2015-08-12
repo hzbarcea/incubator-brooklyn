@@ -23,6 +23,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 import java.util.Collections;
 import java.util.Map;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.apache.brooklyn.mementos.EntityMemento;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,7 +37,6 @@ import brooklyn.entity.basic.AbstractGroupImpl;
 import brooklyn.entity.basic.EntityInternal;
 import brooklyn.entity.basic.EntityLocal;
 import brooklyn.entity.rebind.dto.MementosGenerators;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.feed.AbstractFeed;
 import brooklyn.location.Location;
 import brooklyn.policy.basic.AbstractPolicy;

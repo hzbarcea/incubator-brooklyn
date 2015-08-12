@@ -20,6 +20,8 @@ package org.apache.brooklyn.entity.nosql.mongodb.sharding;
 
 import java.util.Collection;
 
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.policy.PolicySpec;
 
 import brooklyn.entity.Entity;
@@ -28,8 +30,6 @@ import brooklyn.entity.group.AbstractMembershipTrackingPolicy;
 import brooklyn.entity.group.DynamicClusterImpl;
 import brooklyn.entity.proxying.EntitySpec;
 import brooklyn.entity.trait.Startable;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.location.Location;
 
 import com.google.common.collect.ImmutableList;

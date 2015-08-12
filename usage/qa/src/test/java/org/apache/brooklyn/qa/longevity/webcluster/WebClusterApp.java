@@ -29,9 +29,9 @@ import brooklyn.entity.proxy.nginx.NginxController;
 import brooklyn.entity.proxying.EntitySpec;
 import brooklyn.entity.webapp.ControlledDynamicWebAppCluster;
 import brooklyn.entity.webapp.jboss.JBoss7Server;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.apache.brooklyn.launcher.BrooklynLauncher;
 import org.apache.brooklyn.policy.EnricherSpec;
 

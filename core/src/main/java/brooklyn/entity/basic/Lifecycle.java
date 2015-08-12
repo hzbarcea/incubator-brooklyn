@@ -40,7 +40,7 @@ public enum Lifecycle {
      * The entity has just been created.
      *
      * This stage encompasses the contruction. Once this stage is
-     * complete, the basic set of {@link brooklyn.event.Sensor}s will be available, apart from any that require the entity to be active or
+     * complete, the basic set of {@link org.apache.brooklyn.event.Sensor}s will be available, apart from any that require the entity to be active or
      * deployed to a {@link brooklyn.location.Location}.
      */
     CREATED,

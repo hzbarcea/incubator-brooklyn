@@ -24,6 +24,8 @@ import java.util.Map;
 import com.google.common.annotations.Beta;
 
 import org.apache.brooklyn.catalog.Catalog;
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Entity;
 import brooklyn.entity.annotation.Effector;
@@ -34,7 +36,6 @@ import brooklyn.entity.group.DynamicCluster;
 import brooklyn.entity.machine.MachineEntity;
 import brooklyn.entity.proxying.EntitySpec;
 import brooklyn.entity.proxying.ImplementedBy;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.location.MachineLocation;
 import brooklyn.location.NoMachinesAvailableException;

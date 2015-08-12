@@ -20,6 +20,9 @@ package brooklyn.policy.os;
 
 import java.util.List;
 
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.jclouds.compute.config.AdminAccessConfiguration;
 import org.jclouds.scriptbuilder.functions.InitAdminAccess;
 import org.jclouds.scriptbuilder.statements.login.AdminAccess;
@@ -33,9 +36,6 @@ import brooklyn.entity.basic.AbstractEntity;
 import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.entity.basic.EntityInternal;
 import brooklyn.entity.basic.EntityLocal;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.event.basic.Sensors;
 import brooklyn.location.Location;
 import brooklyn.location.basic.SshMachineLocation;

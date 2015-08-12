@@ -22,10 +22,11 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.Effector;
 import brooklyn.entity.rebind.RebindSupport;
-import brooklyn.event.AttributeSensor;
 
 /**
  * Represents the state of an entity, so that it can be reconstructed (e.g. after restarting brooklyn).

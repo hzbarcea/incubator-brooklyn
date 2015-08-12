@@ -23,6 +23,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.apache.brooklyn.management.ExecutionContext;
 import org.apache.brooklyn.management.ManagementContext;
 import org.apache.brooklyn.management.SubscriptionContext;
@@ -40,7 +41,6 @@ import brooklyn.entity.Feed;
 import brooklyn.entity.basic.AbstractEntity;
 import brooklyn.entity.basic.Entities;
 import brooklyn.entity.basic.EntityInternal;
-import brooklyn.event.AttributeSensor;
 import brooklyn.management.entitlement.Entitlements;
 import brooklyn.management.entitlement.Entitlements.EntityAndItem;
 import brooklyn.management.entitlement.Entitlements.StringAndArgument;

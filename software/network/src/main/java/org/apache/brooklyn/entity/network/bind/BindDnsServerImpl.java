@@ -25,6 +25,7 @@ import java.io.StringReader;
 import java.util.Collection;
 import java.util.Map;
 
+import org.apache.brooklyn.event.Sensor;
 import org.apache.brooklyn.policy.PolicySpec;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -56,7 +57,6 @@ import brooklyn.entity.basic.Lifecycle;
 import brooklyn.entity.basic.SoftwareProcessImpl;
 import brooklyn.entity.group.AbstractMembershipTrackingPolicy;
 import brooklyn.entity.proxying.EntitySpec;
-import brooklyn.event.Sensor;
 import brooklyn.location.basic.Machines;
 import brooklyn.location.basic.SshMachineLocation;
 import brooklyn.util.guava.Maybe;

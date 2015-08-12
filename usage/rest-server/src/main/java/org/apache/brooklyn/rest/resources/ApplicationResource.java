@@ -54,8 +54,6 @@ import brooklyn.entity.basic.AbstractGroup;
 import brooklyn.entity.basic.Attributes;
 import brooklyn.entity.basic.Lifecycle;
 import brooklyn.entity.trait.Startable;
-import brooklyn.event.AttributeSensor;
-import brooklyn.event.Sensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.location.Location;
 import brooklyn.management.entitlement.EntitlementPredicates;
@@ -65,6 +63,8 @@ import brooklyn.management.entitlement.Entitlements.StringAndArgument;
 import brooklyn.management.internal.EntityManagementUtils;
 import brooklyn.management.internal.EntityManagementUtils.CreationResult;
 
+import org.apache.brooklyn.event.AttributeSensor;
+import org.apache.brooklyn.event.Sensor;
 import org.apache.brooklyn.management.Task;
 import org.apache.brooklyn.rest.api.ApplicationApi;
 import org.apache.brooklyn.rest.domain.ApplicationSpec;

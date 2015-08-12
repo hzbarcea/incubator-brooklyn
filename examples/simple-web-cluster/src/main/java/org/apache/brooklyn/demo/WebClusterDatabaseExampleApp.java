@@ -26,9 +26,10 @@ import java.util.concurrent.TimeUnit;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import org.apache.brooklyn.catalog.Catalog;
 import org.apache.brooklyn.catalog.CatalogConfig;
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.enricher.Enrichers;
 import brooklyn.enricher.HttpLatencyDetector;
@@ -45,9 +46,10 @@ import brooklyn.entity.webapp.DynamicWebAppCluster;
 import brooklyn.entity.webapp.JavaWebAppService;
 import brooklyn.entity.webapp.WebAppService;
 import brooklyn.entity.webapp.WebAppServiceConstants;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
+
 import org.apache.brooklyn.launcher.BrooklynLauncher;
+
 import brooklyn.location.basic.PortRanges;
 import brooklyn.policy.autoscaling.AutoScalerPolicy;
 import brooklyn.util.BrooklynMavenArtifacts;

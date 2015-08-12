@@ -23,13 +23,13 @@ import static org.testng.Assert.assertNotNull;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.apache.brooklyn.test.EntityTestUtils;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import brooklyn.entity.basic.Attributes;
 import brooklyn.entity.rebind.RebindTestFixtureWithApp;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.Sensors;
 import brooklyn.test.Asserts;
 import brooklyn.test.entity.TestApplication;

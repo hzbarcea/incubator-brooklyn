@@ -24,6 +24,8 @@ import java.net.URI;
 import java.util.Collection;
 import java.util.concurrent.Callable;
 
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.policy.PolicySpec;
 
 import brooklyn.config.ConfigKey;
@@ -31,8 +33,6 @@ import brooklyn.entity.Group;
 import brooklyn.entity.proxy.nginx.NginxControllerImpl;
 import brooklyn.entity.proxy.nginx.NginxSshDriver;
 import brooklyn.entity.proxy.nginx.UrlMapping;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.event.feed.ConfigToAttributes;
 import brooklyn.event.feed.function.FunctionFeed;
 import brooklyn.event.feed.function.FunctionPollConfig;

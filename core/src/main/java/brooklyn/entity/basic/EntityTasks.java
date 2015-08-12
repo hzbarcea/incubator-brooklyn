@@ -18,10 +18,10 @@
  */
 package brooklyn.entity.basic;
 
+import org.apache.brooklyn.event.AttributeSensor;
 import org.apache.brooklyn.management.Task;
 
 import brooklyn.entity.Entity;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.DependentConfiguration;
 import brooklyn.util.collections.CollectionFunctionals;
 import brooklyn.util.time.Duration;

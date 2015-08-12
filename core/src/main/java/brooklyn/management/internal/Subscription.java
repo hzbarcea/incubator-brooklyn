@@ -20,12 +20,12 @@ package brooklyn.management.internal;
 
 import java.util.Map;
 
+import org.apache.brooklyn.event.Sensor;
+import org.apache.brooklyn.event.SensorEvent;
+import org.apache.brooklyn.event.SensorEventListener;
 import org.apache.brooklyn.management.SubscriptionHandle;
 
 import brooklyn.entity.Entity;
-import brooklyn.event.Sensor;
-import brooklyn.event.SensorEvent;
-import brooklyn.event.SensorEventListener;
 import brooklyn.util.text.Identifiers;
 
 import com.google.common.base.Predicate;

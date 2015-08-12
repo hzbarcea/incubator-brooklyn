@@ -18,6 +18,8 @@
  */
 package brooklyn.entity.group;
 
+import org.apache.brooklyn.event.AttributeSensor;
+
 import brooklyn.config.ConfigKey;
 import brooklyn.entity.basic.AbstractGroup;
 import brooklyn.entity.basic.Attributes;
@@ -27,7 +29,6 @@ import brooklyn.entity.basic.Lifecycle;
 import brooklyn.entity.proxying.EntitySpec;
 import brooklyn.entity.proxying.ImplementedBy;
 import brooklyn.entity.trait.Startable;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.MapConfigKey;
 import brooklyn.event.basic.Sensors;
 import brooklyn.util.flags.SetFromFlag;

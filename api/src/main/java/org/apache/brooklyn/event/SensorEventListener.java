@@ -16,32 +16,22 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package brooklyn.event;
+package org.apache.brooklyn.event;
 
 import brooklyn.entity.Entity;
 
 /**
- * A tuple representing a piece of data from a {@link Sensor} on an {@link Entity}.
+ * A listener for {@link SensorEvent}s on an {@link Entity}.
  */
-public interface SensorEvent<T> {
+public interface SensorEventListener<T> {
+    
+    public static final SensorEventListener<Object> NOOP = new SensorEventListener<Object>() {
+        @Override public void onEvent(SensorEvent<Object> event) {
+        }
+    };
+    
     /**
-     * The {@link Entity} where the data originated.
+     * The {@link SensorEvent} handler method.
      */
-    Entity getSource();
- 
-    /**
-     * The {@link Sensor} describing the data.
-     */
-    Sensor<T> getSensor();
- 
-    /**
-     * The value for the {@link Sensor} data.
-     */
-    T getValue();
-
-    /**
-     * The time this data was published, as a UTC time in milliseconds (e.g. as returned
-     * by {@link System#currentTimeMillis()}.
-     */
-    long getTimestamp();
+    void onEvent(SensorEvent<T> event);
 }

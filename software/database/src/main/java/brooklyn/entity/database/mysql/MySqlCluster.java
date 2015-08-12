@@ -21,6 +21,7 @@ package brooklyn.entity.database.mysql;
 import java.util.Collection;
 
 import org.apache.brooklyn.catalog.Catalog;
+import org.apache.brooklyn.event.AttributeSensor;
 
 import com.google.common.reflect.TypeToken;
 
@@ -29,7 +30,6 @@ import brooklyn.entity.basic.ConfigKeys;
 import brooklyn.entity.database.DatastoreMixins.HasDatastoreUrl;
 import brooklyn.entity.group.DynamicCluster;
 import brooklyn.entity.proxying.ImplementedBy;
-import brooklyn.event.AttributeSensor;
 import brooklyn.event.basic.BasicAttributeSensorAndConfigKey.StringAttributeSensorAndConfigKey;
 import brooklyn.event.basic.Sensors;
 
