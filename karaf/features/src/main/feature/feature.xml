@@ -50,6 +50,7 @@
         <feature>brooklyn-api</feature>
 
         <bundle>mvn:org.apache.brooklyn/brooklyn-core/${project.version}</bundle>
+        <bundle>mvn:org.apache.brooklyn/brooklyn-rt-osgi/${project.version}</bundle>
         <bundle>mvn:org.apache.brooklyn/brooklyn-utils-groovy/${project.version}</bundle>
     
         <bundle dependency="true">mvn:com.google.code.gson/gson/${gson.version}</bundle>
@@ -67,7 +68,11 @@
         <bundle dependency="true">mvn:org.bouncycastle/bcpkix-jdk15on/${bouncycastle.version}</bundle>
         <bundle dependency="true">mvn:commons-codec/commons-codec/${commons-codec.version}</bundle>
         <bundle dependency="true">mvn:org.apache.commons/commons-lang3/${commons-lang3.version}</bundle>
-        <!--<bundle dependency="true">mvn:org.apache.felix/org.apache.felix.framework/${felix.framework.version}</bundle>-->
+        <bundle dependency="true">mvn:org.apache.httpcomponents/httpcore-osgi/${httpclient.version}</bundle>
+        <bundle dependency="true">mvn:org.apache.httpcomponents/httpclient-osgi/${httpclient.version}</bundle>
+        <bundle dependency="true">mvn:org.codehaus.jackson/jackson-core-asl/${jackson.version}</bundle>
+        <bundle dependency="true">mvn:org.codehaus.jackson/jackson-mapper-asl/${jackson.version}</bundle>
+        <bundle dependency="true">mvn:org.codehaus.jackson/jackson-jaxrs/${jackson.version}</bundle>
 
         <!-- TODO: don't use wrap: -->
         <bundle dependency="true">wrap:mvn:com.google.http-client/google-http-client/1.18.0-rc</bundle> <!-- from geoip -->

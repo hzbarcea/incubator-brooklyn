@@ -22,14 +22,20 @@
         <bundle>mvn:org.apache.brooklyn/brooklyn-commands/0.9.0-SNAPSHOT</bundle>
         <bundle>mvn:org.apache.brooklyn/brooklyn-core/0.9.0-SNAPSHOT</bundle>
         <bundle>mvn:org.apache.brooklyn/brooklyn-logback-includes/0.9.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.brooklyn/brooklyn-rt-osgi/0.9.0-SNAPSHOT</bundle>
         <bundle>mvn:org.apache.brooklyn/brooklyn-utils-common/0.9.0-SNAPSHOT</bundle>
         <bundle>mvn:org.apache.brooklyn/brooklyn-utils-common/0.9.0-SNAPSHOT</bundle>
         <bundle>mvn:org.apache.brooklyn/brooklyn-utils-groovy/0.9.0-SNAPSHOT</bundle>
         <bundle>mvn:org.apache.commons/commons-lang3/3.1</bundle>
+        <bundle>mvn:org.apache.httpcomponents/httpclient-osgi/4.4.1</bundle>
+        <bundle>mvn:org.apache.httpcomponents/httpcore-osgi/4.4.1</bundle>
         <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jzlib/1.1.3_2</bundle>
         <bundle>mvn:org.bouncycastle/bcpkix-jdk15on/1.49</bundle>
         <bundle>mvn:org.bouncycastle/bcprov-ext-jdk15on/1.49</bundle>
         <bundle>mvn:org.codehaus.groovy/groovy-all/2.3.4</bundle>
+        <bundle>mvn:org.codehaus.jackson/jackson-core-asl/1.9.13</bundle>
+        <bundle>mvn:org.codehaus.jackson/jackson-jaxrs/1.9.13</bundle>
+        <bundle>mvn:org.codehaus.jackson/jackson-mapper-asl/1.9.13</bundle>
         <bundle>mvn:org.freemarker/freemarker/2.3.22</bundle>
         <bundle>mvn:org.slf4j/jul-to-slf4j/1.6.6</bundle>
         <bundle>mvn:org.yaml/snakeyaml/1.11</bundle>
