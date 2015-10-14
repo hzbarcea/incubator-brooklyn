@@ -41,7 +41,7 @@
         <bundle>mvn:org.yaml/snakeyaml/1.11</bundle>
         <bundle>wrap:mvn:com.google.http-client/google-http-client/1.18.0-rc</bundle>
         <bundle>wrap:mvn:com.maxmind.geoip2/geoip2/0.8.1</bundle>
-        <bundle>wrap:mvn:io.cloudsoft.windows/winrm4j/0.1.0</bundle>
+        <bundle>wrap:mvn:org.reflections/reflections/0.9.9-RC1</bundle>
         <bundle>wrap:mvn:xpp3/xpp3_min/1.1.4c</bundle>
     </feature>
 </features>
