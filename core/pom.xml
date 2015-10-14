@@ -42,7 +42,11 @@
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
-    
+        <dependency>
+            <groupId>org.apache.brooklyn</groupId>
+            <artifactId>brooklyn-rt-felix</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.brooklyn</groupId>
             <artifactId>brooklyn-api</artifactId>
@@ -95,11 +99,6 @@
                     <artifactId>bcprov-jdk15on</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.felix</groupId>
-            <artifactId>org.apache.felix.framework</artifactId>
         </dependency>
 
         <dependency>
@@ -207,6 +206,13 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
+            <classifier>tests</classifier>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.brooklyn</groupId>
+            <artifactId>brooklyn-rt-osgi</artifactId>
+            <version>${project.version}</version>
             <classifier>tests</classifier>
             <scope>test</scope>
         </dependency>
