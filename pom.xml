@@ -226,6 +226,7 @@
         <module>software/database</module>
         <module>software/monitoring</module>
         <module>software/winrm</module>
+        <module>software/cm/salt</module>
 
         <module>storage/hazelcast</module>
 
